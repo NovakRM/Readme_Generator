@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
-let fs = require("fs") //vanilla node module
-let util = require("util") //vanilla node module
-let inquirer = require("inquirer") //inq module
-let generateMarkdown = require("./utils/generateMarkdown") //generatemarkdown as module
+const fs = require("fs") //vanilla node module
+const util = require("util") //vanilla node module
+const inquirer = require("inquirer") //inq module
+const generateMarkdown = require("./utils/generateMarkdown") //generatemarkdown as module
 
 const writeFileAsync = util.promisify(fs.writeFile)
 
@@ -61,11 +61,12 @@ const questions = () =>
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {writeFileAsync("readme.md"), generateMarkdown(data)}
+// function writeToFile(fileName, data) {}
 
 questions()
-
-
+    .then((data) => writeFileAsync("readmetest.md", generateMarkdown(data)))
+    .then(() => console.log("successfully wrote readmetest.md!"))
+    .catch((error) => console.error(error))
 // TODO: Create a function to initialize app
 // function init() {}
 
