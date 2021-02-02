@@ -1,7 +1,7 @@
 # ReadMe Generator
 
 ## In Use
-![Use](./Visuals/demo.mp4)
+![Demo gif](./Visuals/demo.gif)
 
   ## Table of Contents
   * [Installation](#installation)
