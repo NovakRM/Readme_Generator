@@ -1,4 +1,16 @@
 # ReadMe Generator
+
+## In Use
+![Use](./Visuals/demo.mp4)
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
   ## Description
    ReadMe Generator ... generates ReadMes. 
   ## Installation
