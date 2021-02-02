@@ -1,15 +1,18 @@
-# Readme_Generator
+# ReadMe Generator
   ## Description
-   Simple app that prompts a user in command line and returns their answers as a formatted markdown file.
+   Generates Readmes
   ## Installation
-   npm -i Readme_Generator (not really but pretend)
+   a
   ## Usage
-   Call it in terminal with node index.js, answer the prompts.
+   a
   ## Contributing
-   Go for it
+   a
   ## Tests
-   You'll figure it out
+   a
+
+  ## License
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
   ## Questions
-  * [GitHub Profile](http://github.com/Osteophagy)
-  * Email address: email@gmail.com
+  * [GitHub Profile](http://github.com/a)
+  * Email address: a
